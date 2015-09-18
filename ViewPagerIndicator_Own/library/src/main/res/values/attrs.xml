@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Bazaar_viewPager">
+        <attr name="leftPercentage" format="float" />
+        <attr name="centerPercentage" format="float" />
+        <attr name="rightPercentage" format="float" />
+        <attr name="textSizeBig" format="dimension" />
+        <attr name="textSizeSmall" format="dimension" />
+        <attr name="marginTextBig" format="dimension" />
+        <attr name="marginTextSmall" format="dimension" />
+        <attr name="textColor" format="color" />
+        <!-- 字  全透明 -->
+        <attr name="textColorTransparent" format="color" />
+        <!-- 全透明背景颜色 -->
+        <attr name="bgColorTransparent" format="color" />
+        <!-- 半透明背景颜色 -->
+        <attr name="bgColorTranslucent" format="color" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TitlePageIndicator">
+        <attr name="indicator_text_to_top" format="dimension" />
+        <attr name="indicator_to_text" format="dimension" />
+        <attr name="indicator_line_height" format="dimension" />
+        <attr name="indicator_base_indicator_line_height" format="dimension" />
+        <attr name="indicator_text_size" format="dimension" />
+        <attr name="indicator_horizontal_space" format="dimension" />
+        <attr name="indicator_selected_color" format="color" />
+        <attr name="indicator_line_color" format="color" />
+    </declare-styleable>
+
+</resources>
